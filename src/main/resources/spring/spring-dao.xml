@@ -29,7 +29,7 @@
         <property name="acquireRetryAttempts" value="2"/>
     </bean>
 
-    <!-- 约定大于配置 -->
+    <!-- 约定大于配置,意思就是默认的配置就能够满足大部分需要 -->
     <!-- 3:配置SqlSessionFactory对象 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <!-- 注入数据库连接池 -->
